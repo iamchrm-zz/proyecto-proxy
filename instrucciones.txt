@@ -1,0 +1,12 @@
+Formato: Entrega por encargo
+Número integrantes: 3 a 5 personas
+El presente proceso evaluativo consiste en desarrollar el FrontEnd de un Sitio Web Responsivo cuyo tema es a elección del equipo de trabajo. En estricto rigor los temas no deberían repetirse, pero dada la contingencia si los temas son repetidos tendrán que ser claramente diferentes en su diseño.
+El proyecto consistirá en incorporar elementos HTML, CSS, Bootstrap (para el diseño responsivo) y Javascript para darle dinamismo a su sitio.
+Aspectos que deberán considerar para el diseño de su sitio:
+⦁	El sitio debe contener al menos 5 páginas en formato html, en las cuales index, contacto y acerca_de son de carácter obligatoria.
+⦁	Deberán considerar que, si bien Bootstrap define estilos, deberán crear al menos un archivo CSS con estilos propios aplicarlos según sus criterios.
+⦁	En el caso de Javascript podrán según necesidades crear Script en el interior de los ficheros html o archivos JS para su uso general.
+⦁	Todas las páginas deberán permitir la navegación entre las distintas páginas que tenga su sitio, considerando una barra de navegación.
+Respecto al index, es la página donde deberán exponer el tema y definir mediante Cards, Album de imágenes o entradas de blog los contenidos. En el caso de contacto, deberán crear un formulario que permita “solicitar información o registrarse al sitio”, consideren que solo es el formulario y validación por lo tanto los datos ingresados deberán mostrarlos de alguna forma que no considere base de datos, es decir, temporalmente. Finalmente, respecto a la página acerca de deberán mostrar la información de todos los integrantes del equipo de trabajo, el diseño de cada página es la clave del proyecto.
+Es importante mencionar que no se permite el uso de Templates (plantillas), obviamente pueden basarse en algunas, pero no directamente.
+A continuación, se entrega la Rúbrica de Evaluación en la cual se indican en detalle los elementos que serán evaluados, deberán considerarlos y ubicarlos como lo deseen.
