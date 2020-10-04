@@ -1,7 +1,7 @@
 body {
-    background: #000000;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #0b2b34, #040f12);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #0b2b34, #040f12); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #18181b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #18181b, ##18181b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #18181b, #18181b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
