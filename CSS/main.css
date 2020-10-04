@@ -1,10 +1,8 @@
 body {
-    background: #0e0e10;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #0e0e10, #2a0845);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #0e0e10, #2a0845);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #0b2b34, #040f12);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #0b2b34, #040f12); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 /*        RESPONSIVIDAD EN CAMBIO DE FUENTES       */
@@ -15,22 +13,56 @@ body {
     }
 }
 
-@media (min-width: 1200px) and (max-width: 3000px) {
+@media (min-width: 900px) and (max-width: 3000px) {
     div.view {
         height: 800px;
     }
 }
 
-/*     CAMBIO DE COLOR DE LOS BOTONES #2a0845  */
+div.icono-rapido1 img{
+    width: 100px; 
+    height: 100px;
+   
+}
+div.icono-rapido2 img{
+    width: 100px; 
+    height: 100px;
+   
+}
+div.icono-rapido3 img{
+    width: 100px; 
+    height: 100px;
+   
+}
+
+div.quees h1{
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+/*Filter styles*/
+.saturate { filter: saturate(3); }
+.grayscale { filter: grayscale(100%); }
+.contrast { filter: contrast(160%); }
+.brightness { filter: brightness(0.25); }
+.blur { filter: blur(3px); }
+.invert { filter: invert(100%); }
+.sepia { filter: sepia(100%); }
+.huerotate { filter: hue-rotate(180deg); }
+.rss.opacity { filter: opacity(50%); }
+
+/*     CAMBIO DE COLOR DE LOS BOTONES 	#071b24  */
 
 .btn-primary, .btn-primary:active, .btn-primary:visited, .btn-primary:focus {
-    background-color: #2a0845 !important;
-    border-color: #2a0845 !important;
+    background-color: 	#071b24 !important;
+    border-color: 	#071b24 !important;
 }
 
 .btn-primary:hover {
-    background-color: #2a0845 !important;
-    border-color: #2a0845 !important;
+    background-color: 	#071b24 !important;
+    border-color: 	#071b24 !important;
     transition: all 1s ease;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
@@ -41,7 +73,7 @@ body {
 div.view {
     height: 100%;
     color: white;
-    background-image: url('https://raw.githubusercontent.com/iamchrm/proyecto-proxy/master/images/1image.jpg')
+    background-image: url('https://raw.githubusercontent.com/iamchrm/proyecto-proxy/master/images/800.jpg')
 }
 
 .hr-light {
@@ -74,28 +106,11 @@ nav.navbar-expand-lg {
     font-weight: 600;
 }
 
-div.col-lg-4 img {
-    margin-top: 10%;
-    width: 30%;
-    height: 50%;
-    border-radius: 50%;
-}
 
-p.text-card {
-    text-align: right;
-    top: 100%;
-    font-size: medium;
-}
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    div.col-lg-4 img {
-        margin-top: 10%;
-        width: 20%;
-        height: 50%;
-        border-radius: 50%;
-    }
-}
+
+
+
 
 h2 {
     color: white;
@@ -105,14 +120,17 @@ p {
     color: aliceblue;
 }
 
-div.primero {
-    text-align: right;
-}
 
-div.segundo {
-    text-align: left;
-}
-
-div.tercero {
-    text-align: right;
-}
+/* MARKETING SECTION */
+.marketing .col-lg-4 {
+    margin-top: 10%;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
