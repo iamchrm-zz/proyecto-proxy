@@ -13,12 +13,17 @@ body {
     div.view {
         height: 300px;
     }
+    
 }
 
 @media (min-width: 900px) and (max-width: 3000px) {
     div.view {
         height: 800px;
     }
+}
+div.dropdown-menu {
+    font-size: small;
+    background-color: aliceblue;
 }
 
 div.icono-rapido1 img {
