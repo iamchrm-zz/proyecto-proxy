@@ -1,0 +1,86 @@
+body
+{
+  background-color:#f2f2f2;
+  font-family: 'RobotoDraft', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+div.footer-copyright{
+    background-color: #18181b;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(247,247,247)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+a.nav-link {
+    color: white;
+    text-decoration: wavy;
+}
+
+a.navbar-brand {
+    color: white;
+}
+
+nav.navbar-expand-lg {
+    background-color: #18181b;
+    font-weight: 600;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: aliceblue;
+}
+
+/*              editar aqui */ 
+
+div.card  {
+  position: relative;
+  margin-top: 15em;
+  margin-left: 10%;
+  margin-right: 10%;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius:16px;
+  overflow:hidden;
+  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+
+}
+
+div.card form {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+button.btn.btn-primary {
+    margin-top: 3em;
+}
+
+@media (min-width: 100px) and (max-width: 850px) {
+    div.card {
+        margin-top: 5em;
+        margin-bottom: 0em;
+    }
+    
+}
