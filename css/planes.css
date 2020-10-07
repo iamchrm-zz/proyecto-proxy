@@ -1,0 +1,43 @@
+/*  NAVBAR CONFIG*/
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(247,247,247)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+a.nav-link {
+    color: white;
+    text-decoration: wavy;
+}
+
+a.navbar-brand {
+    color: white;
+}
+
+nav.navbar-expand-lg {
+    background-color: #18181b;
+    font-weight: 600;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: aliceblue;
+}
+
+.flotante{
+    display: scroll;
+    position: fixed;
+    bottom: 320px;
+    right: 0px;
+    border-image: 100%;
+}
+
