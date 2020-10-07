@@ -14,7 +14,6 @@ body {
     div.view {
         height: 300px;
     }
-    
 }
 
 @media (min-width: 900px) and (max-width: 3000px) {
@@ -22,6 +21,7 @@ body {
         height: 800px;
     }
 }
+
 div.dropdown-menu {
     font-size: small;
     background-color: aliceblue;
@@ -42,11 +42,29 @@ div.icono-rapido3 img {
     height: 100px;
 }
 
-div.quees h1 {
-    color: #fff;
+.hr-black {
+    border-top: 4px solid #ffffff;
+    width: 80px;
+    align-self: center;
+}
+
+div.card h1 {
+    color: #ffffff;
     text-align: center;
     font-weight: 800;
-    margin-bottom: 5%;
+}
+
+div.card {
+    background: #093028;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #071b24, #093028);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #071b24, #093028);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+div.video {
+    width: 50%;
     margin-top: 5%;
 }
 
@@ -115,7 +133,9 @@ div.view {
     border-top: 3px solid #fff;
     width: 80px;
 }
+
 /*  NAVBAR CONFIG*/
+
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(247,247,247)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
@@ -155,7 +175,6 @@ p {
     margin-top: 10%;
     margin-bottom: 1.5rem;
     text-align: center;
-    
 }
 
 .marketing h2 {

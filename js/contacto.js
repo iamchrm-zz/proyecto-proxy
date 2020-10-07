@@ -1,5 +1,4 @@
 
-// Example starter JavaScript for disabling form submissions if there are invalid fields
 (function () {
     'use strict';
     window.addEventListener('load', function () {
@@ -17,3 +16,32 @@
         });
     }, false);
 })();
+
+/* Funcion de Capturar, Almacenar datos y Limpiar campos
+$(document).ready(function(){    
+    $('#boton-guardar').click(function(){        
+    
+        var nom = document.getElementById("nameInput").value;
+        var email = document.getElementById("emailInput").value;
+        var message = document.getElementById("messageInput").value;
+
+        localStorage.setItem("nameInput", nom);
+        localStorage.setItem("emailInput", email);
+        localStorage.setItem("messageInput", message);
+    });   
+});
+
+
+$(document).ready(function(){    
+    $('#boton-cargar').click(function(){                       
+
+        var nom = localStorage.getItem("nameInput");
+        var email = localStorage.getItem("emailInput");
+        var messsage = localStorage.getItem("messageInput");
+    
+        document.getElementById("nameInput").innerHTML = nom;
+        document.getElementById("emailInput").innerHTML = email; 
+        document.getElementById("messageInput").innerHTML = messsage;
+    });   
+});
+*/
