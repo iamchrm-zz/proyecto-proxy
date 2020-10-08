@@ -8,6 +8,7 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+
 /*  RELOJ*/
 
 .clockdate-wrapper {
@@ -42,6 +43,12 @@ body {
     div.view {
         height: 800px;
     }
+}
+
+#carousel-images{
+    width: 30%;
+    align-self: center;
+    margin-bottom: 1%;
 }
 
 div.dropdown-menu {
@@ -145,7 +152,7 @@ div.card {
 div.view {
     height: 100%;
     color: white;
-    background-image: url('https://raw.githubusercontent.com/iamchrm/proyecto-proxy/master/images/800.jpg')
+    background-image: url('https://i.imgur.com/efOYIsu.jpg')
 }
 
 .hr-light {
@@ -153,7 +160,7 @@ div.view {
     width: 80px;
 }
 
-.btn-whatsapp {
+.btn-ayuda {
     display: block;
     width: 70px;
     height: 70px;
@@ -202,19 +209,29 @@ p {
     color: aliceblue;
 }
 
+div.modal-content {
+    background: #18181b;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #18181b, #2d2d35);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #18181b, #2d2d35);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-font-smoothing: antialiased;
+}
 /* MARKETING SECTION */
 
 .marketing .col-lg-4 {
-    margin-top: 10%;
+    margin-top: 2%;
     margin-bottom: 1.5rem;
     text-align: center;
 }
 
 .marketing h2 {
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .marketing .col-lg-4 p {
     margin-right: .75rem;
     margin-left: .75rem;
 }
+
