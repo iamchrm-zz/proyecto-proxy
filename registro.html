@@ -12,7 +12,8 @@
 
   <!-- CSS PROPIO-->
 
-  <link rel="stylesheet" href="css/planes.css">
+  <link rel="stylesheet" href="css/contacto.css">
+  <script src="js/contacto.js"></script>
   <script src="js/reloj.js"></script>
   <!-- nombre de la pagina-->
   <title>Proxy Lock</title>
@@ -57,45 +58,61 @@
       </ul>
     </div>
   </nav>
+  <!-- FIN NAV -->
 
+  <div class="card ">
 
-
-  <a href="#Modal" class="flotante" role="button" data-toggle="modal"> <img
-      src="https://img.icons8.com/ios/48/000000/help.png" /></a>
-  <!-- Botón en HTML (lanza el modal en Bootstrap) -->
-  <!-- Modal / Ventana / Overlay en HTML -->
-  <div id="Modal" class="modal fade">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <h4 class="modal-title">¿Estás seguro?</h4>
-        </div>
-        <div class="modal-body">
-          <p>¿Seguro que quieres borrar este elemento?</p>
-          <p class="text-warning"><small>Si lo borras, nunca podrás recuperarlo.</small></p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-          <button type="button" class="btn btn-danger">Eliminar</button>
+    <form class="necesita-validacion" novalidate>
+      <div class="form-group">
+        <label for="nameInput">Nickname</label>
+        <input type="text" class="form-control" id="nameInput" placeholder="Nombre" required>
+        <div class="valid-feedback">
+          Looks good!
         </div>
       </div>
-    </div>
+      <div class="form-group">
+        <label for="emailInput">Email</label>
+        <input type="email" class="form-control" id="emailInput" placeholder="nombre@ejemplo.com" required>
+      </div>
+      <div class="form-group">
+        <label for="passwordInput">Password</label>
+        <input type="password" class="form-control" id="passwordInput" placeholder="Password" required>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+          <label class="form-check-label" for="invalidCheck">
+            Acepto los <a href="">terminos</a> y <a href="">condiciones</a>
+          </label>
+          <div class="invalid-feedback">
+            Necesitas aceptar los terminos y condiciones para enviar el formulario.
+          </div>
+        </div>
+      </div>
+      <button id="boton-guardar" type="submit" class="btn btn-primary">Enviar</button>
+
+
+    </form>
+
   </div>
+
+
+
+
 
 
 
 
   <!-- Footer -->
   <footer class="page-footer font-small">
-    <div class="footer-copyright text-center py-3 text-white">© 2020 Copyright:
+    <div class="footer-copyright text-center py-3 fixed-bottom text-white">© 2020 Copyright:
       <a href="index.html" class="text-white"> ProxyLocker.com</a>
     </div>
   </footer>
   <!-- Footer -->
 
   <!-- Optional JavaScript -->
-  <script src="js/script.js"></script>
+
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
