@@ -60,23 +60,49 @@
   </nav>
   <!-- FIN NAV -->
 
+  
   <div class="card ">
 
-    <form class="necesita-validacion" novalidate>
+    <form class="necesita-validacion" method="POST" novalidate>
       <div class="form-group">
-        <label for="nameInput">Nickname</label>
-        <input type="text" class="form-control" id="nameInput" placeholder="Nombre" required>
+        <label for="nameInput">Nombre</label>
+        <input type="text" class="form-control" id="nameInput" name="nombre" placeholder="Nombre" required>
         <div class="valid-feedback">
-          Looks good!
+          ¡Tu nombre esta disponible, completa los siguientes campos!
+        </div>
+        <div class="invalid-feedback">
+          ¡Tu nombre parece estar registrado o no ha sido ingresado, intenta con otro!
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="nameInput">Rut</label>
+        <input type="text" class="form-control" id="rutInput" placeholder="Rut" name="rut" required>
+        <div class="valid-feedback">
+          ¡Tu RUT esta disponible, completa los siguientes campos!
+        </div>
+        <div class="invalid-feedback">
+          ¡Tu RUT parece estar registrado o no ha sido ingresado, intenta con otro!
         </div>
       </div>
       <div class="form-group">
         <label for="emailInput">Email</label>
-        <input type="email" class="form-control" id="emailInput" placeholder="nombre@ejemplo.com" required>
+        <input type="email" class="form-control" id="emailInput" placeholder="nombre@ejemplo.com" name="email" required>
+        <div class="valid-feedback">
+          ¡Tu correo esta disponible, completa los siguientes campos!
+        </div>
+        <div class="invalid-feedback">
+          ¡Tu correo parece estar registrado o no ha sido ingresado, intenta con otro!
+        </div>
       </div>
       <div class="form-group">
         <label for="passwordInput">Password</label>
-        <input type="password" class="form-control" id="passwordInput" placeholder="Password" required>
+        <input type="password" class="form-control" id="passwordInput" placeholder="Password" name="password" required>
+        <div class="valid-feedback">
+          ¡Tu contraseña se ve segura!
+        </div>
+        <div class="invalid-feedback">
+          ¡Necesitas ingresar una contraseña segura!
+        </div>
       </div>
       <div class="form-group">
         <div class="form-check">
@@ -89,7 +115,7 @@
           </div>
         </div>
       </div>
-      <button id="boton-guardar" type="submit" class="btn btn-primary">Enviar</button>
+      <button id="boton-guardar" type="submit" value="enviar" class="btn btn-primary">Enviar</button>
 
 
     </form>
