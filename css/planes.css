@@ -1,58 +1,58 @@
+body {
+    position         : relative;
+    background-repeat: repeat;
+    width            : 100%;
+    background-image : url('https://raw.githubusercontent.com/iamchrm/proyecto-proxy/master/images/bg.jpg');
+
+}
+
+
 /*  RELOJ*/
 
 .clockdate-wrapper {
-    text-align:center;
-    
+    text-align: center;
+
 }
-#clock{
-    
+
+#clock {
+
     font-family: sans-serif;
-    font-size:23px;
-  
-    color:#fff;
+    font-size  : 23px;
+
+    color: #fff;
 }
+
 #clock span {
 
-    font-size:23px;
+    font-size: 23px;
 
 }
+
 #date {
 
-    font-size:10px;
-    font-family:arial,sans-serif;
-    color:#fff;
+    font-size  : 10px;
+    font-family: arial, sans-serif;
+    color      : #fff;
 }
 
 /*  NAVBAR CONFIG*/
 
 
-img#fondo.img {
-    position: absolute;
-    background-repeat: repeat;
-    width: 100%;
-
- 
-    filter: blur(6px);
-    
-}
 
 
-footer.page-footer {
 
-    padding-top: 2%;
-    padding-bottom: 2%;
-} 
+footer.page-footer {}
 
 .navbar-expand-lg .navbar-collapse {
     justify-content: center;
-    text-align: center;
-    text-transform: uppercase;
+    text-align     : center;
+    text-transform : uppercase;
 }
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(247,247,247)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image   : url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(247,247,247)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-repeat  : no-repeat;
+    background-size    : cover;
     background-position: center center;
 }
 
@@ -61,7 +61,7 @@ footer.page-footer {
 }
 
 a.nav-link {
-    color: white;
+    color          : white;
     text-decoration: wavy;
 }
 
@@ -71,7 +71,7 @@ a.navbar-brand {
 
 nav.navbar-expand-lg {
     background-color: #18181b;
-    font-weight: 600;
+    font-weight     : 600;
 }
 
 h2 {
@@ -87,28 +87,64 @@ p {
 }
 
 .flotante {
-    display: scroll;
-    position: fixed;
-    bottom: 320px;
-    right: 0px;
+    display     : scroll;
+    position    : fixed;
+    bottom      : 320px;
+    right       : 0px;
     border-image: 100%;
 }
 
 footer {
     background-color: black;
-    position: relative;
-    margin-top: 5em
+    margin-top      : 5em
+}
+
+.card {
+    background: #093028;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #071b24, #093028);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #071b24, #093028);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-color         : #071b24;
+    display              : -webkit-box;
+    display              : -ms-flexbox;
+    display              : flex;
+    -webkit-box-orient   : vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction   : column;
+    flex-direction       : column;
+    -webkit-transition   : all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition        : all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition           : all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    border-radius        : 16px;
+    overflow             : hidden;
+    -webkit-box-shadow   : 1px 1px 25px #071b24, 0px 0px 25px #071b24;
+    box-shadow           : 1px 1px 25px #071b24, -1px 10px 25px #071b24;
 }
 
 #Plans .card-body {
-    background: rgb(2,0,36);
-    background: linear-gradient(5deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 1%, rgba(0,212,255,1) 100%);
+    background: #093028;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #071b24, #093028);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #071b24, #093028);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: left;
+
 }
 
-#Plans button{
-    margin-top: 2em;
-    display: inline-block;
-    align-items: center;
+button.btn.btn-primary.btn-lg.btn-block {
+    background-color:white;
+    color: #071b24;
+    border-color: #071b24;
+
+}
+
+#Plans button {
+    margin-top     : 2em;
+    display        : inline-block;
+    align-items    : center;
     justify-content: center;
 }
 
@@ -116,32 +152,34 @@ footer {
     margin-top: 6em;
 }
 
-#Plans p{
+#Plans p {
     color: white;
+    text-align: center;
 }
 
 #Plans li {
-    color: white
+    color     : white;
+    text-align: left;
 }
 
-#Plans h4, h6{
-    color: white
+#Plans h4,
+h6 {
+    color: white;
 }
 
 #cabecera {
     position: absolute;
 }
 
-#cabecera h3{
+#cabecera h3 {
     text-align: center;
     margin-top: 1em;
-    color: white;
-    
+    color     : white;
+
 }
 
 #macbook {
     justify-content: center;
-    align-items: center;
-    display: flex;
+    align-items    : center;
+    display        : flex;
 }
-
