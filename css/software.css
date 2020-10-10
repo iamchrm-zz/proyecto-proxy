@@ -166,3 +166,10 @@ p {
     justify-content: center;
     margin-bottom: 25px;
 }
+
+#btnDark {
+    margin-top: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
