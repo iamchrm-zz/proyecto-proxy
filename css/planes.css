@@ -90,3 +90,33 @@ p {
 footer {
     background-color: black;
 }
+
+#Plans .card-body {
+    background-color: #dff9fb;
+}
+
+#Plans button{
+    margin-top: 2em;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+#Plans {
+    margin-top: 6em;
+}
+
+#Plans p{
+    color: black;
+}
+
+#cabecera {
+    position: absolute
+}
+
+#cabecera h3{
+    text-align: center;
+    margin-top: 1em;
+    color: white;
+}
+
