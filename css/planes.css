@@ -89,6 +89,8 @@ p {
 
 footer {
     background-color: black;
+    position: relative;
+    margin-top: 5em
 }
 
 #Plans .card-body {
@@ -118,5 +120,6 @@ footer {
     text-align: center;
     margin-top: 1em;
     color: white;
+    
 }
 
