@@ -265,3 +265,19 @@ div.modal-content {
     margin-right: .75rem;
     margin-left : .75rem;
 }
+
+#btn-center{
+    margin-top: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: invert(100%);
+    
+}
+
+#leer-mas {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
