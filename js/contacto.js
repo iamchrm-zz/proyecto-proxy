@@ -17,6 +17,24 @@
     }, false);
 })();
 
+(function () {
+    'use strict';
+    window.addEventListener('load', function () {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('validacion-login');
+        // Loop over them and prevent submission
+        var validacion = Array.prototype.filter.call(forms, function (form) {
+            form.addEventListener('submit', function (event) {
+                if (form.checkValidity() === false) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+            }, false);
+        });
+    }, false);
+})();
+
 /* Funcion de Capturar, Almacenar datos y Limpiar campos
 $(document).ready(function(){    
     $('#boton-guardar').click(function(){        

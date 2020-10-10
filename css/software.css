@@ -24,8 +24,16 @@
     color:#fff;
 }
 
-div.footer-copyright{
-    background-color: #18181b;
+footer.page-footer {
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .navbar-toggler-icon {
