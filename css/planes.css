@@ -94,7 +94,8 @@ footer {
 }
 
 #Plans .card-body {
-    background-color: #dff9fb;
+    background: rgb(2,0,36);
+    background: linear-gradient(5deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 1%, rgba(0,212,255,1) 100%);
 }
 
 #Plans button{
@@ -109,7 +110,15 @@ footer {
 }
 
 #Plans p{
-    color: black;
+    color: white;
+}
+
+#Plans li {
+    color: white
+}
+
+#Plans h4, h6{
+    color: white
 }
 
 #cabecera {
