@@ -28,8 +28,15 @@
 
 img#fondo.img {
     position: absolute;
+    background-repeat: repeat;
     width: 100%;
+
+ 
+    filter: blur(6px);
+    
 }
+
+
 footer.page-footer {
 
     padding-top: 2%;
@@ -122,7 +129,7 @@ footer {
 }
 
 #cabecera {
-    position: absolute
+    position: absolute;
 }
 
 #cabecera h3{
