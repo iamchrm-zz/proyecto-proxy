@@ -15,8 +15,60 @@
 .invert {
     filter: invert(100%);
 }
+div.comprar-google img {
+    width: 50%;
+}
 
-div.download-text h1 {
+div.app img.play {
+    width: 20%;
+    
+}
+h5 {
+    font-weight: 600;
+    font-size: 25px;
+}
+h4{
+    font-size: 19px;
+}
+h3 {
+    text-align: center;
+}
+div.image img.phone {
+    margin-bottom: 3rem;
+}
+.marketing .col-lg-4 {
+    margin-top   : 2%;
+    margin-bottom: 1.5rem;
+    text-align   : center;
+}
+
+
+
+
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left : .75rem;
+}
+
+
+a.btn {
+    background-color: #18181b;
+    color: #fff; 
+}
+
+div.col-2 img{
+   width: 100%;
+}
+div.app{
+    text-align: center;
+}
+div.app img.ios {
+    width: 20%;
+   
+}
+
+
+h1 {
     font-weight: 700;
     margin-bottom: 2rem;
     text-align: center;
@@ -44,7 +96,7 @@ button.btn.btn-secondary.btn-lg {
 }
 
 footer.page-footer {
-
+background-color: #18181b;
     padding-top: 2%;
     padding-bottom: 2%;
 }
