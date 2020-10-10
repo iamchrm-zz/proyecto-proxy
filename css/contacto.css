@@ -10,7 +10,18 @@ body
   -webkit-font-smoothing: antialiased;
 }
 
+footer.page-footer {
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+} 
 /*  RELOJ*/
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
 
 .clockdate-wrapper {
     text-align:center;
