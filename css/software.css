@@ -11,6 +11,9 @@ body{
 .dark-mode img {
     filter: invert(100%);
 }
+.dark-mode hr.hr-light.my-4 {
+    filter: invert(100%);
+}
 .clockdate-wrapper {
     text-align:center;
     
