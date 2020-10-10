@@ -41,7 +41,7 @@ body {
 
 
 
-footer.page-footer {}
+
 
 .navbar-expand-lg .navbar-collapse {
     justify-content: center;
@@ -178,8 +178,3 @@ h6 {
 
 }
 
-#macbook {
-    justify-content: center;
-    align-items    : center;
-    display        : flex;
-}
