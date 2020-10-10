@@ -1,10 +1,27 @@
 
 /*  RELOJ*/
-
+body{
+    color: black;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+    
+  }
+.dark-mode img {
+    filter: invert(100%);
+}
 .clockdate-wrapper {
     text-align:center;
     
 }
+
+.btn-dark {
+    display: flex;
+    justify-content: center;
+}
+
+
 #clock{
     
     font-family: sans-serif;
@@ -52,6 +69,7 @@ div.image img.phone {
 
 
 a.btn {
+    
     background-color: #18181b;
     color: #fff; 
 }
@@ -81,17 +99,11 @@ button.btn.btn-secondary.btn-lg {
     
 }
 
-
-
 #clock span {
-
     font-size:23px;
-
 }
 
-
 #date {
-
     font-size:10px;
     font-family:arial,sans-serif;
     color:#fff;
