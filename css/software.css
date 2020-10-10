@@ -15,8 +15,11 @@
 .invert {
     filter: invert(100%);
 }
+div.col-6 img {
+    width: 50%;
+}
 
-div.download-text h1 {
+h1 {
     font-weight: 700;
     margin-bottom: 2rem;
     text-align: center;
