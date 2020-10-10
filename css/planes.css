@@ -25,6 +25,11 @@
 
 /*  NAVBAR CONFIG*/
 
+
+img#fondo.img {
+    position: absolute;
+    width: 100%;
+}
 footer.page-footer {
 
     padding-top: 2%;
@@ -80,4 +85,8 @@ p {
     bottom: 320px;
     right: 0px;
     border-image: 100%;
+}
+
+footer {
+    background-color: black;
 }

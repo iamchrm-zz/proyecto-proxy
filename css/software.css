@@ -12,6 +12,25 @@
   
     color:#fff;
 }
+.invert {
+    filter: invert(100%);
+}
+
+div.download-text h1 {
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+button.btn.btn-secondary.btn-lg {
+    background-color: #18181b;
+    color: white;
+    
+}
+
+
+
 #clock span {
 
     font-size:23px;
